@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+
+    <!-- this is Header section -->
+<header class="shadow-lg sticky bg-white top-0 z-50">
+    <nav class="flex justify-between items-center mx-5 py-3  ">
+        <div>
+            <p class="flex gap-1"><svg class="bg-yellow-200 rounded-lg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="currentColor" d="M2 2v28h28V2zm15.238 21.837c0 2.725-1.6 3.969-3.931 3.969c-2.106 0-3.325-1.087-3.95-2.406l2.144-1.294c.413.731.788 1.35 1.694 1.35c.862 0 1.412-.338 1.412-1.656v-8.944h2.631zm6.224 3.969c-2.444 0-4.025-1.162-4.794-2.688l2.144-1.237c.563.919 1.3 1.6 2.594 1.6c1.087 0 1.788-.544 1.788-1.3c0-.9-.713-1.219-1.919-1.75l-.656-.281c-1.9-.806-3.156-1.825-3.156-3.969c0-1.975 1.506-3.475 3.85-3.475c1.675 0 2.875.581 3.738 2.106l-2.05 1.313c-.45-.806-.938-1.125-1.694-1.125c-.768 0-1.256.488-1.256 1.125c0 .788.488 1.106 1.619 1.6l.656.281c2.238.956 3.494 1.938 3.494 4.137c0 2.363-1.863 3.662-4.357 3.662z"/></svg><span class="font-bold text-[20px] font-thin">Ostad</span></p>
+        </div>
+        <div>
+            <ul class="flex gap-10 font-bold">
+                <li class="flex"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m20 8l-6-5.26a3 3 0 0 0-4 0L4 8a3 3 0 0 0-1 2.26V19a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-8.75A3 3 0 0 0 20 8m-6 12h-4v-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1Zm5-1a1 1 0 0 1-1 1h-2v-5a3 3 0 0 0-3-3h-2a3 3 0 0 0-3 3v5H6a1 1 0 0 1-1-1v-8.75a1 1 0 0 1 .34-.75l6-5.25a1 1 0 0 1 1.32 0l6 5.25a1 1 0 0 1 .34.75Z"/></svg><a href="">Home</a></li>
+                <li class="flex"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12.414 5H21a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.414zM4 5v14h16V7h-8.414l-2-2zm4 7h8v2H8z"/></svg><a href="">Resources</a></li>
+                <li class="flex"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M9.745 21.745C5.308 20.722 2 16.747 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10c0 4.747-3.308 8.722-7.745 9.745L12 24zm-2.733-3.488a7.953 7.953 0 0 0 3.182 1.539l.56.129L12 21.172l1.247-1.247l.56-.13a7.955 7.955 0 0 0 3.36-1.686A6.979 6.979 0 0 0 12.16 16c-2.036 0-3.87.87-5.148 2.257M5.616 16.82A8.975 8.975 0 0 1 12.16 14a8.972 8.972 0 0 1 6.362 2.634a8 8 0 1 0-12.906.187M12 13a4 4 0 1 1 0-8a4 4 0 0 1 0 8m0-2a2 2 0 1 0 0-4a2 2 0 0 0 0 4"/></svg><a href="">About Me</a></li>
+                <li class="flex"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022m-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M6.03 2a1 1 0 0 1 .919.684L8.72 8h6.558l1.772-5.316a1 1 0 0 1 1.877-.055l2.898 7.244a5 5 0 0 1-1.519 5.762L13.25 21.28a2 2 0 0 1-2.498 0l-7.058-5.646a5 5 0 0 1-1.52-5.762L5.073 2.63A1 1 0 0 1 6.029 2m-.115 3.906l-1.884 4.71a3 3 0 0 0 .91 3.457L12 19.719l7.058-5.646a3 3 0 0 0 .911-3.457l-1.884-4.71l-1.136 3.41A1 1 0 0 1 16 10H8a1 1 0 0 1-.949-.684z"/></g></svg><a href="">GitHub</a></li>
+            </ul>
+        </div>
+        <div>
+            <button class="flex px-5 py-2 bg-transparent rounded-full border border-black hover:bg-green-400 hover:border-green "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M1.927 23.935a2.4 2.4 0 0 1-1.882-1.883a2.4 2.4 0 0 1 2.82-2.82a2.4 2.4 0 0 1 1.882 1.882a2.4 2.4 0 0 1-2.82 2.82M21.135 4.768a2.4 2.4 0 0 1-1.882-1.882a2.4 2.4 0 0 1 2.82-2.82a2.4 2.4 0 0 1 1.882 1.882a2.4 2.4 0 0 1-2.82 2.82M12.021 6.01c1.147 0 2.219.324 3.13.883l2.585-2.585A9.583 9.583 0 0 0 4.328 17.716l2.586-2.586a5.99 5.99 0 0 1 5.107-9.12m5.107 2.86a5.99 5.99 0 0 1-8.237 8.237l-2.586 2.585A9.583 9.583 0 0 0 19.713 6.284Z"/></svg> <a href="">More Resources</a></button>
+        </div>
+    </nav>
+</header>
+
+
+    <!-- this is content-aria Section-->
+<div class="px-5 py-5 flex flex-col md:flex-row md:flex-wrap gap-2 z-40">
+
+    <article class="lg:w-[19%] md:w-[32%]  border shadow-lg ">
+
+        <div class="w-50">
+            <img class="object-cover" src="https://blog.undraw.co/static/39eddec534183724807a2c9017ecffa2/4-years-unDraw.png" alt="">
+        </div>
+        
+        <div>
+            <h1 class="font-bold text-center text-[25px]">unDraw</h1>
+        </div>
+        
+        <div>
+            <p class="px-5">The design project with open-source illustrations for any idea you can imagine and create.</p>
+        </div>
+        
+        <div class="flex items-center justify-center px-5 py-5">
+            <button class="w-[80%] bg-green-500 rounded-lg px-5 py-2 text-white"><a href="https://undraw.co/">Click here</a></button>
+        </div>
+        
+        </article>
+
+        <article class="lg:w-[19%] md:w-[32%]  border shadow-lg ">
+
+            <div class="w-50">
+                <img class="object-cover" src="https://i.pinimg.com/originals/10/db/a3/10dba3a16e810219cea5b24dcff7dfaf.png" alt="">
+            </div>
+            
+            <div>
+                <h1 class="font-bold text-center text-[25px]">Drawkit</h1>
+            </div>
+            
+            <div>
+                <p class="px-5">Free and premium vector SVG illustrations for you to use on your next project, no attribution required!</p>
+            </div>
+            
+            <div class="flex items-center justify-center px-5 py-5">
+                <button class="w-[80%] bg-green-500 rounded-lg px-5 py-2 text-white"><a href="https://www.drawkit.com/">Click here</a></button>
+            </div>
+            
+            </article>
+
+
+            <article class="lg:w-[19%] md:w-[32%]  border shadow-lg ">
+
+                <div class="w-50">
+                    <img class="object-cover" src="https://assets-global.website-files.com/5bff8886c3964a992e90d465/5c0061a47aefa4500f0f42d1_rotating-mixing-optimized.gif" alt="">
+                </div>
+                
+                <div>
+                    <h1 class="font-bold text-center text-[25px]">Humaaans</h1>
+                </div>
+                
+                <div>
+                    <p class="px-5">Mix-&-match illustrations of people with a design library for InVIsion Studio and Sketch</p>
+                </div>
+                
+                <div class="flex items-center justify-center px-5 py-5">
+                    <button class="w-[80%] bg-green-500 rounded-lg px-5 py-2 text-white"><a href="https://www.humaaans.com">Click here</a></button>
+                </div>
+                
+                </article>
+
+
+                <article class="lg:w-[19%] md:w-[32%]  border shadow-lg ">
+
+                    <div class="w-50">
+                        <img class="object-cover" src="https://iradesign.io/assets/img/ira_elements.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h1 class="font-bold text-center text-[25px]">IRA Design</h1>
+                    </div>
+                    
+                    <div>
+                        <p class="px-5">For designers. Build an app you love. 200+ individually designed components, each with a specific purpose. </p>
+                    </div>
+                    
+                    <div class="flex items-center justify-center px-5 py-5">
+                        <button class="w-[80%] bg-green-500 rounded-lg px-5 py-2 text-white"><a href="https://iradesign.io/">Click here</a></button>
+                    </div>
+                    
+                    </article>
+
+
+                    <article class="lg:w-[19%] md:w-[32%]  border shadow-lg ">
+
+                        <div class="w-50">
+                            <img class="object-cover" src="https://assets.awwwards.com/awards/external/2021/05/60ab8e292bd3f425876100.jpg" alt="">
+                        </div>
+                        
+                        <div>
+                            <h1 class="font-bold text-center text-[25px]">Iconoir</h1>
+                        </div>
+                        
+                        <div>
+                            <p class="px-5">A high-quality selection of free icons. No premium options or sign-ups. Your new alternative to Noun Project, Flaticon, and all... </p>
+                        </div>
+                        
+                        <div class="flex items-center justify-center px-5 py-5">
+                            <button class="w-[80%] bg-green-500 rounded-lg px-5 py-2 text-white"><a href="https://iconoir.com/">Click here</a></button>
+                        </div>
+                        
+                        </article>
+
+
+                        <article class="lg:w-[19%] md:w-[32%]  border shadow-lg ">
+
+                            <div class="w-50">
+                                <img class="object-cover" src="https://miro.medium.com/v2/resize:fit:2000/1*Rf7BoWimNQ5c4d6mtBLBkQ.jpeg" alt="">
+                            </div>
+                            
+                            <div>
+                                <h1 class="font-bold text-center text-[25px]">Opendoodles</h1>
+                            </div>
+                            
+                            <div>
+                                <p class="px-5">Open Doodles is a set of free illustrations that embraces the idea of Open Design. You can copy, edit..</p>
+                            </div>
+                            
+                            <div class="flex items-center justify-center px-5 py-5">
+                                <button class="w-[80%] bg-green-500 rounded-lg px-5 py-2 text-white"><a href="https://www.opendoodles.com/">Click here</a></button>
+                            </div>
+                            
+                            </article>
+
+
+                            <article class="lg:w-[19%] md:w-[32%]  border shadow-lg ">
+
+                                <div class="w-50">
+                                    <img class="object-cover" src="https://assets-global.website-files.com/5e51b3b0337309d672efd94c/5e53682233d368dfa63e7deb_slider-1.svg" alt="">
+                                </div>
+                                
+                                <div>
+                                    <h1 class="font-bold text-center text-[25px]">Openpeeps</h1>
+                                </div>
+                                
+                                <div>
+                                    <p class="px-5">Open Peeps is a hand-drawn illustration library to create scenes of people. You can use them in product illustration..</p>
+                                </div>
+                                
+                                <div class="flex items-center justify-center px-5 py-5">
+                                    <button class="w-[80%] bg-green-500 rounded-lg px-5 py-2 text-white"><a href="https://www.openpeeps.com/">Click here</a></button>
+                                </div>
+                                
+                                </article>
+
+
+                                <article class="lg:w-[19%] md:w-[32%]  border shadow-lg ">
+
+                                    <div class="w-50">
+                                        <img class="object-cover" src="https://lukaszadam.com/images/free-illustrations/outlined_characters.svg" alt="">
+                                    </div>
+                                    
+                                    <div>
+                                        <h1 class="font-bold text-center text-[25px]">Lukaszadam</h1>
+                                    </div>
+                                    
+                                    <div>
+                                        <p class="px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque at explicabo placeat iure distinctio</p>
+                                    </div>
+                                    
+                                    <div class="flex items-center justify-center px-5 py-5">
+                                        <button class="w-[80%] bg-green-500 rounded-lg px-5 py-2 text-white"><a href="https://lukaszadam.com/illustrations">Click here</a></button>
+                                    </div>
+                                    
+                                    </article>
+
+
+                                    <article class="lg:w-[19%] md:w-[32%]  border shadow-lg ">
+
+                                        <div class="w-50">
+                                            <img class="object-cover" src="https://img.freepik.com/premium-vector/set-bullet-journal-notes-paper-planning-design_58032-512.jpg" alt="">
+                                        </div>
+                                        
+                                        <div>
+                                            <h1 class="font-bold text-center text-[25px]">Designnotes</h1>
+                                        </div>
+                                        
+                                        <div>
+                                            <p class="px-5">A community of design enthusiasts who share the most interesting and unique UI designs.</p>
+                                        </div>
+                                        
+                                        <div class="flex items-center justify-center px-5 py-5">
+                                            <button class="w-[80%] bg-green-500 rounded-lg px-5 py-2 text-white"><a href="https://www.designnotes.co">Click here</a></button>
+                                        </div>
+                                        
+                                        </article>
+
+
+                                        <article class="lg:w-[19%] md:w-[32%]  border shadow-lg ">
+
+                                            <div class="w-50">
+                                                <img class="object-cover" src="https://uixlibrary.com/uploads/creation/screenthump/800/mobile-app-flowchart-creator-1f1cff42-0f6b-4376-a180-88b71ae380ed.jpeg" alt="">
+                                            </div>
+                                            
+                                            <div>
+                                                <h1 class="font-bold text-center text-[25px]">Uixlibrary</h1>
+                                            </div>
+                                            
+                                            <div>
+                                                <p class="px-5">Browse & Download 17000+ Free Design Freebies! Search and download unlimited UI design</p>
+                                            </div>
+                                            
+                                            <div class="flex items-center justify-center px-5 py-5">
+                                                <button class="w-[80%] bg-green-500 rounded-lg px-5 py-2 text-white"><a href="https://uixlibrary.com/">Click here</a></button>
+                                            </div>
+                                            
+                                            </article>
+
+
+                    
+
+
+</div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
